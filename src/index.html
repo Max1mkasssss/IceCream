@@ -1,22 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <section>
-      <h1>Lorem ipsum dolor sit amet.</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
-    </section>
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IceCream</title>
 
-    <script type="module" src="/main.js"></script>
-  </body>
+  <!-- Website Icon  -->
+
+
+  <!-- BootStrap  -->
+
+  <!-- Modern Normalize  -->
+   
+  <!-- Styles  -->
+  <link rel="stylesheet" href="./css/styles.css" />
+
+  <!-- Js  -->
+</head>
+
+<body>
+
+  <header>
+    <load="partials/section-hero.html" />
+  </header>
+  <main>
+    <load="partials/section-natural-products.html" />
+    <load="partials/section-how_its_made.html" />
+    <load="partials/section-gallery.html" />
+    <load="partials/section-slider.html" />
+    <load="partials/section-schedule.html" />
+  </main>
+  <footer>
+    <load="partials/footer.html" />
+  </footer>
+
+
+
+  <script type="module" src="/main.js"></script>
+</body>
+
 </html>

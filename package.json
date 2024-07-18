@@ -1,11 +1,11 @@
 {
-  "name": "project-name",
-  "private": true,
+  "name": "IceCream",
+  "private": true, 
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build --base=/project-name/",
+    "build": "vite build --base=/IceCream/",
     "preview": "vite preview"
   },
   "devDependencies": {
