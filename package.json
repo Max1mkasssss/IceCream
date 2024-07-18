@@ -1,0 +1,25 @@
+{
+  "name": "project-name",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build --base=/project-name/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "glob": "^8.1.0",
+    "vite": "^4.0.5"
+  },
+  "author": " ",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "skroll": "^1.4.3",
+    "swiper": "^10.0.4",
+    "vite-plugin-full-reload": "^1.0.5",
+    "vite-plugin-html-inject": "^1.0.1"
+  }
+}

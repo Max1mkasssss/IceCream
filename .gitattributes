@@ -1,2 +1,27 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Вказання текстових файлів, щоб Git автоматично нормалізував закінчення рядків
+*.c     text
+*.h     text
+*.cpp   text
+*.hpp   text
+*.py    text
+*.java  text
+*.js    text
+*.css   text
+*.html  text
+*.xml   text
+
+# Примусове позначення двійкових файлів, щоб Git не змінював закінчення рядків
+*.jpg   binary
+*.png   binary
+*.gif   binary
+*.pdf   binary
+*.zip   binary
+*.tar   binary
+*.gz    binary
+
+# Ігнорування відмінностей у закінченнях рядків для всіх текстових файлів
+*       text=auto
+
+# Виключення конфліктів з виконуваними файлами
+*.sh    eol=lf
+*.bat   eol=crlf
