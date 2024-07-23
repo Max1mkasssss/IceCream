@@ -1,4 +1,221 @@
-.container {
+.container2 {
   width: 90%;
   border: 1px solid red;
+  margin: 0 auto;
+}
+
+.schedule {
+  position: relative;
+}
+.schedule__background {
+  position: absolute;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff5f6;
+  z-index: -1;
+}
+.schedule__list {
+  display: flex;
+  gap: 3%;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+@media screen and (max-width: 816px) {
+  .schedule__list {
+    display: block;
+    max-width: 600px;
+    margin: 43px auto;
+  }
+}
+.schedule__item {
+  background: #ffffff;
+  box-shadow: 0px 8px 30px 0px rgba(212, 20, 67, 0.1019607843);
+  border-radius: 24px;
+  margin-bottom: 20px;
+}
+.schedule__item-holder {
+  padding: 51px 44px 62px 44px;
+}
+.schedule__name {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.76px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 6px;
+  display: inline-block;
+  padding: 0 10px;
+}
+.schedule__1 {
+  background: #f0d1a5;
+}
+.schedule__2 {
+  background: #c2e297;
+}
+.schedule__city {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.76px;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.schedule__description {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.28px;
+  letter-spacing: 0.04em;
+  color: #907e82;
+}
+.schedule__line {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 32px;
+}
+.schedule__daytime {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.76px;
+  letter-spacing: 0.04em;
+  color: #000000;
+  margin-bottom: 0;
+}
+.schedule__clocktime {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.76px;
+  color: #ffa5ba;
+  margin-top: 0;
+}
+.schedule__contact {
+  display: block;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.28px;
+  color: #907e82;
+  position: relative;
+  overflow: hidden;
+}
+.schedule__contact:hover {
+  animation: contacthover 600ms forwards;
+}
+@keyframes contacthover {
+  0% {
+    color: #907e82;
+  }
+  100% {
+    color: rgba(212, 20, 68, 0.4588235294);
+  }
+}
+.schedule__buttons {
+  padding-top: 66px;
+  padding-bottom: 165px;
+  text-align: center;
+  gap: 15px;
+}
+@media screen and (max-width: 816px) {
+  .schedule__buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 34px;
+    padding-bottom: 113px;
+  }
+}
+.schedule__button1 {
+  position: relative;
+  overflow: hidden;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+  text-align: center;
+  color: #ffffff;
+  background: #d41342;
+  border-radius: 22px;
+  border: none;
+  padding: 10px 35px;
+  margin-bottom: 20px;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.schedule__button1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  width: 100%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+.schedule__button1:hover::before {
+  left: 100%;
+}
+.schedule__button1:hover {
+  background-color: #ff3355;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.schedule__button1:active {
+  background-color: #c41838;
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 816px) {
+  .schedule__button1 {
+    margin-right: 0;
+  }
+}
+.schedule__button2 {
+  position: relative;
+  overflow: hidden;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.83px;
+  text-align: center;
+  color: #d41443;
+  background: #ffffff;
+  border-radius: 22px;
+  border: none;
+  padding: 10px 35px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.schedule__button2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -50%;
+  width: 100%;
+  height: 200%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: rotate(45deg);
+  transition: all 0.5s ease;
+}
+.schedule__button2:hover::before {
+  left: 100%;
+}
+.schedule__button2:hover {
+  background-color: #f0ebeb;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.schedule__button2:active {
+  background-color: rgb(228, 215, 217);
+  transform: scale(0.95);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }/*# sourceMappingURL=main.css.map */
