@@ -42,6 +42,7 @@
                 height: 525px;
                 background-color: $pink-color;
                 border-radius: 24px;
+
                 h3 {
                     font-family: $Titan-fonts;
                     font-size: 30px;
@@ -49,34 +50,38 @@
                     line-height: 35px;
                     color: $white-color;
                 }
+
                 h4 {
                     font-family: $Titan-fonts;
                     font-size: 25px;
                     font-weight: 400;
-                
+
                     color: $white-color;
                 }
-                p{
+
+                p {
                     text-align: center;
                     justify-content: center;
                     display: block;
                     margin: 0 auto;
                     width: 241px;
-                    
-                    font-family:$DM-Sans-fonts;
+
+                    font-family: $DM-Sans-fonts;
                     font-size: 16px;
                     font-weight: 700;
                     line-height: 28px;
                     color: $white-color;
                 }
-                button{
+
+                button {
                     margin-top: 42px;
                     width: 40px;
                     height: 40px;
                     background-color: $white-color;
                     border-radius: 50%;
-                    border:$white-color ;
-                    span{
+                    border: $white-color ;
+
+                    span {
                         color: $point-color;
                         font-weight: 700;
                         font-size: larger;
@@ -94,6 +99,7 @@
                 height: 525px;
                 background-color: $background-coffe-color;
                 border-radius: 24px;
+
                 h3 {
                     font-family: $Titan-fonts;
                     font-size: 30px;
@@ -101,34 +107,38 @@
                     line-height: 35px;
                     color: $white-color;
                 }
+
                 h4 {
                     font-family: $Titan-fonts;
                     font-size: 25px;
                     font-weight: 400;
-                
+
                     color: $white-color;
                 }
-                p{
+
+                p {
                     text-align: center;
                     justify-content: center;
                     display: block;
                     margin: 0 auto;
                     width: 241px;
-                    
-                    font-family:$DM-Sans-fonts;
+
+                    font-family: $DM-Sans-fonts;
                     font-size: 16px;
                     font-weight: 700;
                     line-height: 28px;
                     color: $white-color;
                 }
-                button{
+
+                button {
                     margin-top: 42px;
                     width: 40px;
                     height: 40px;
                     background-color: $white-color;
                     border-radius: 50%;
-                    border:$white-color ;
-                    span{
+                    border: $white-color ;
+
+                    span {
                         color: $point-color;
                         font-weight: 700;
                         font-size: larger;
@@ -146,6 +156,7 @@
                 height: 525px;
                 background-color: $background-lughtgreen-color;
                 border-radius: 24px;
+
                 h3 {
                     font-family: $Titan-fonts;
                     font-size: 30px;
@@ -153,37 +164,217 @@
                     line-height: 35px;
                     color: $white-color;
                 }
+
                 h4 {
                     font-family: $Titan-fonts;
                     font-size: 25px;
                     font-weight: 400;
-                
+
                     color: $white-color;
                 }
-                p{
+
+                p {
                     text-align: center;
                     justify-content: center;
                     display: block;
                     margin: 0 auto;
                     width: 241px;
-                    
-                    font-family:$DM-Sans-fonts;
+
+                    font-family: $DM-Sans-fonts;
                     font-size: 16px;
                     font-weight: 700;
                     line-height: 28px;
                     color: $white-color;
                 }
-                button{
+
+                button {
                     margin-top: 42px;
                     width: 40px;
                     height: 40px;
                     background-color: $white-color;
                     border-radius: 50%;
-                    border:$white-color ;
-                    span{
+                    border: $white-color ;
+
+                    span {
                         color: $point-color;
                         font-weight: 700;
                         font-size: large;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media ((min-width: 480px) and (max-width:844px)) {
+    .natural-products {
+        h3 {
+            font-size: 26px;
+            line-height: 30px;
+        }
+
+        h2 {
+            font-size: 48px;
+            line-height: 54px;
+        }
+
+
+        &__cards {
+            height: 589px;
+            gap: 20px;
+
+            &__card-one {
+                width: 220px;
+
+                &__text {
+                    padding-top: 152px;
+                    height: 485px;
+
+                    h3 {
+                        font-size: 20px;
+                        line-height: 22px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        width: 198px;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+
+                    button {
+                        margin-top: 40px;
+
+
+                    }
+                }
+            }
+
+            &__card-two {
+                width: 220px;
+
+                &__text {
+                    padding-top: 152px;
+                    height: 485px;
+
+                    h3 {
+                        font-size: 20px;
+                        line-height: 22px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        width: 198px;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+
+                    button {
+                        margin-top: 40px;
+
+
+                    }
+                }
+            }
+
+            &__card-three {
+                width: 220px;
+
+                &__text {
+                    padding-top: 152px;
+                    height: 485px;
+
+                    h3 {
+                        font-size: 20px;
+                        line-height: 22px;
+                    }
+
+                    h4 {
+                        font-size: 18px;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        width: 198px;
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
+
+                    button {
+                        margin-top: 40px;
+
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:480px) {
+    .natural-products {
+
+        h3 {
+            font-size: 18px;
+            line-height: 20px;
+        }
+
+        h2 {
+            font-size: 34px;
+            line-height: 39px;
+        }
+
+
+        &__cards {
+            gap: 130px;
+            height: 2000px;
+            padding-top: 144px;
+            margin-left: 50px;
+            flex-direction: column;
+width: 280px;
+            &__card-one {
+                width: 280px;
+
+                &__text {
+                    height: 485px;
+
+                    p {
+                        width: 200px;
+                        line-height: 21px;
+                    }
+                }
+            }
+
+            &__card-two {
+                width: 280px;
+
+                &__text {
+                    height: 485px;
+
+                    p {
+                        width: 200px;
+                        line-height: 21px;
+                    }
+                }
+            }
+
+            &__card-three {
+                width: 280px;
+
+                &__text {
+                    height: 485px;
+
+                    p {
+                        width: 200px;
+                        line-height: 21px;
                     }
                 }
             }
