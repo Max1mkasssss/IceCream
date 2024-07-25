@@ -1,3 +1,180 @@
+.section-atural-products-container {
+  width: 90%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.natural-products {
+  margin-top: 127px;
+}
+.natural-products__titles {
+  text-align: center;
+}
+.natural-products__titles h3 {
+  font-family: "Titan One", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #FFA5BA;
+}
+.natural-products__titles h2 {
+  font-family: "Titan One", sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  line-height: 66px;
+  color: #D31342;
+}
+.natural-products__cards {
+  display: flex;
+  height: 735px;
+  justify-content: center;
+  gap: 27px;
+}
+.natural-products__cards__card-one {
+  width: 329px;
+  text-align: center;
+}
+.natural-products__cards__card-one__text {
+  padding-top: 163px;
+  height: 525px;
+  background-color: #FFA5BA;
+  border-radius: 24px;
+}
+.natural-products__cards__card-one__text h3 {
+  font-family: "Titan One", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #ffffff;
+}
+.natural-products__cards__card-one__text h4 {
+  font-family: "Titan One", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.natural-products__cards__card-one__text p {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 241px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+.natural-products__cards__card-one__text button {
+  margin-top: 42px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: #ffffff;
+}
+.natural-products__cards__card-one__text button span {
+  color: #C7133E;
+  font-weight: 700;
+  font-size: larger;
+}
+.natural-products__cards__card-two {
+  width: 329px;
+  text-align: center;
+}
+.natural-products__cards__card-two__text {
+  padding-top: 163px;
+  height: 525px;
+  background-color: #F0D1A5;
+  border-radius: 24px;
+}
+.natural-products__cards__card-two__text h3 {
+  font-family: "Titan One", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #ffffff;
+}
+.natural-products__cards__card-two__text h4 {
+  font-family: "Titan One", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.natural-products__cards__card-two__text p {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 241px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+.natural-products__cards__card-two__text button {
+  margin-top: 42px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: #ffffff;
+}
+.natural-products__cards__card-two__text button span {
+  color: #C7133E;
+  font-weight: 700;
+  font-size: larger;
+}
+.natural-products__cards__card-three {
+  width: 329px;
+  text-align: center;
+}
+.natural-products__cards__card-three__text {
+  padding-top: 163px;
+  height: 525px;
+  background-color: #C2E297;
+  border-radius: 24px;
+}
+.natural-products__cards__card-three__text h3 {
+  font-family: "Titan One", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+  color: #ffffff;
+}
+.natural-products__cards__card-three__text h4 {
+  font-family: "Titan One", sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  color: #ffffff;
+}
+.natural-products__cards__card-three__text p {
+  text-align: center;
+  justify-content: center;
+  display: block;
+  margin: 0 auto;
+  width: 241px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #ffffff;
+}
+.natural-products__cards__card-three__text button {
+  margin-top: 42px;
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border: #ffffff;
+}
+.natural-products__cards__card-three__text button span {
+  color: #C7133E;
+  font-weight: 700;
+  font-size: large;
+}
+
 .container2 {
   width: 90%;
   border: 1px solid red;

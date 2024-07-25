@@ -1,0 +1,192 @@
+.section-atural-products-container {
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.natural-products {
+    margin-top: 127px;
+
+    &__titles {
+        text-align: center;
+
+        h3 {
+            font-family: $Titan-fonts;
+            font-size: 30px;
+            font-weight: 400;
+            line-height: 35px;
+            color: $pink-color;
+        }
+
+        h2 {
+            font-family: $Titan-fonts;
+            font-size: 58px;
+            font-weight: 400;
+            line-height: 66px;
+            color: $home-icon-color;
+        }
+    }
+
+    &__cards {
+        display: flex;
+        height: 735px;
+        justify-content: center;
+        gap: 27px;
+
+        &__card-one {
+            width: 329px;
+            text-align: center;
+
+            &__text {
+                padding-top: 163px;
+                height: 525px;
+                background-color: $pink-color;
+                border-radius: 24px;
+                h3 {
+                    font-family: $Titan-fonts;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    color: $white-color;
+                }
+                h4 {
+                    font-family: $Titan-fonts;
+                    font-size: 25px;
+                    font-weight: 400;
+                
+                    color: $white-color;
+                }
+                p{
+                    text-align: center;
+                    justify-content: center;
+                    display: block;
+                    margin: 0 auto;
+                    width: 241px;
+                    
+                    font-family:$DM-Sans-fonts;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: $white-color;
+                }
+                button{
+                    margin-top: 42px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: $white-color;
+                    border-radius: 50%;
+                    border:$white-color ;
+                    span{
+                        color: $point-color;
+                        font-weight: 700;
+                        font-size: larger;
+                    }
+                }
+            }
+        }
+
+        &__card-two {
+            width: 329px;
+            text-align: center;
+
+            &__text {
+                padding-top: 163px;
+                height: 525px;
+                background-color: $background-coffe-color;
+                border-radius: 24px;
+                h3 {
+                    font-family: $Titan-fonts;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    color: $white-color;
+                }
+                h4 {
+                    font-family: $Titan-fonts;
+                    font-size: 25px;
+                    font-weight: 400;
+                
+                    color: $white-color;
+                }
+                p{
+                    text-align: center;
+                    justify-content: center;
+                    display: block;
+                    margin: 0 auto;
+                    width: 241px;
+                    
+                    font-family:$DM-Sans-fonts;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: $white-color;
+                }
+                button{
+                    margin-top: 42px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: $white-color;
+                    border-radius: 50%;
+                    border:$white-color ;
+                    span{
+                        color: $point-color;
+                        font-weight: 700;
+                        font-size: larger;
+                    }
+                }
+            }
+        }
+
+        &__card-three {
+            width: 329px;
+            text-align: center;
+
+            &__text {
+                padding-top: 163px;
+                height: 525px;
+                background-color: $background-lughtgreen-color;
+                border-radius: 24px;
+                h3 {
+                    font-family: $Titan-fonts;
+                    font-size: 30px;
+                    font-weight: 400;
+                    line-height: 35px;
+                    color: $white-color;
+                }
+                h4 {
+                    font-family: $Titan-fonts;
+                    font-size: 25px;
+                    font-weight: 400;
+                
+                    color: $white-color;
+                }
+                p{
+                    text-align: center;
+                    justify-content: center;
+                    display: block;
+                    margin: 0 auto;
+                    width: 241px;
+                    
+                    font-family:$DM-Sans-fonts;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: $white-color;
+                }
+                button{
+                    margin-top: 42px;
+                    width: 40px;
+                    height: 40px;
+                    background-color: $white-color;
+                    border-radius: 50%;
+                    border:$white-color ;
+                    span{
+                        color: $point-color;
+                        font-weight: 700;
+                        font-size: large;
+                    }
+                }
+            }
+        }
+    }
+}
