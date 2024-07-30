@@ -338,9 +338,14 @@
   margin-bottom: 0;
 }
 
-.constituting-list {
-  margin-left: 74px;
+.constituting-div__img {
+  padding-left: 112px;
 }
+
+.constituting-div__img-second {
+  margin-top: -370px;
+}
+
 .constituting-list__paragraph {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
