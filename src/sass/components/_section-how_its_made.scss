@@ -25,18 +25,32 @@
         color: $home-icon-color;
         text-align: center;
         margin-top: 15px;
-        margin-bottom: 0;
+        margin-bottom: 106px;
     }
 }
+.constituting-div{
+    position: relative;
+    display: flex;
+    gap: 74px;
 
-.constituting-div__img{
-    padding-left: 112px;
-}
-.constituting-div__img-second{
-    margin-top: -370px;
+    &__img{
+        padding-left: 112px;
+        margin-top: -54px;
+        display: block;
     }
+    &__img-second{
+        left: 100px;
+        position: absolute;
+        }
+
+}
 .constituting-list{
+ outline: 1px solid red;
+ width: 463px;
+ 
+    &__item{
 
+    }
     &__paragraph{
         font-family: $DM-Sans-fonts;
         font-size: 16px;
