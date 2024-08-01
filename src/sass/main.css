@@ -1,6 +1,5 @@
 .section-atural-products-container {
   width: 90%;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -34,11 +33,16 @@
   width: 329px;
   text-align: center;
 }
+.natural-products__cards__card-one__img {
+  width: 335px;
+  height: 335px;
+}
 .natural-products__cards__card-one__text {
   padding-top: 163px;
   height: 525px;
   background-color: #FFA5BA;
   border-radius: 24px;
+  margin-top: -125px;
 }
 .natural-products__cards__card-one__text h3 {
   font-family: "Titan One", sans-serif;
@@ -82,11 +86,16 @@
   width: 329px;
   text-align: center;
 }
+.natural-products__cards__card-two__img {
+  width: 335px;
+  height: 335px;
+}
 .natural-products__cards__card-two__text {
   padding-top: 163px;
   height: 525px;
   background-color: #F0D1A5;
   border-radius: 24px;
+  margin-top: -125px;
 }
 .natural-products__cards__card-two__text h3 {
   font-family: "Titan One", sans-serif;
@@ -130,11 +139,16 @@
   width: 329px;
   text-align: center;
 }
+.natural-products__cards__card-three__img {
+  width: 335px;
+  height: 335px;
+}
 .natural-products__cards__card-three__text {
   padding-top: 163px;
   height: 525px;
   background-color: #C2E297;
   border-radius: 24px;
+  margin-top: -125px;
 }
 .natural-products__cards__card-three__text h3 {
   font-family: "Titan One", sans-serif;
@@ -191,10 +205,13 @@
   .natural-products__cards__card-one {
     width: 220px;
   }
+  .natural-products__cards__card-one__img {
+    width: 220px;
+    height: 226px;
+  }
   .natural-products__cards__card-one__text {
     padding-top: 152px;
     height: 485px;
-    margin-top: -85px;
   }
   .natural-products__cards__card-one__text h3 {
     font-size: 20px;
@@ -214,6 +231,10 @@
   }
   .natural-products__cards__card-two {
     width: 220px;
+  }
+  .natural-products__cards__card-two__img {
+    width: 220px;
+    height: 226px;
   }
   .natural-products__cards__card-two__text {
     padding-top: 152px;
@@ -237,6 +258,10 @@
   }
   .natural-products__cards__card-three {
     width: 220px;
+  }
+  .natural-products__cards__card-three__img {
+    width: 220px;
+    height: 226px;
   }
   .natural-products__cards__card-three__text {
     padding-top: 152px;
@@ -271,16 +296,21 @@
   .natural-products__cards {
     gap: 130px;
     height: 2000px;
-    padding-top: 144px;
-    margin-left: 50px;
+    display: block;
+    margin: 0 auto;
     flex-direction: column;
     width: 280px;
   }
   .natural-products__cards__card-one {
     width: 280px;
   }
+  .natural-products__cards__card-one__img {
+    width: 249px;
+    height: 252px;
+  }
   .natural-products__cards__card-one__text {
     height: 485px;
+    margin-top: -150px;
   }
   .natural-products__cards__card-one__text p {
     width: 200px;
@@ -289,8 +319,13 @@
   .natural-products__cards__card-two {
     width: 280px;
   }
+  .natural-products__cards__card-two__img {
+    width: 249px;
+    height: 252px;
+  }
   .natural-products__cards__card-two__text {
     height: 485px;
+    margin-top: -150px;
   }
   .natural-products__cards__card-two__text p {
     width: 200px;
@@ -299,8 +334,13 @@
   .natural-products__cards__card-three {
     width: 280px;
   }
+  .natural-products__cards__card-three__img {
+    width: 249px;
+    height: 252px;
+  }
   .natural-products__cards__card-three__text {
     height: 485px;
+    margin-top: -150px;
   }
   .natural-products__cards__card-three__text p {
     width: 200px;
