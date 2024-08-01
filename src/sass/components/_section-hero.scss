@@ -1,0 +1,204 @@
+.flex {
+  display: flex;
+}
+.header {
+  z-index: 1000;
+  height: 90px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: #ffb8ca;
+}
+
+.nav-bar {
+  // outline: 2px solid black;
+  width: 1120px;
+  justify-content: space-between;
+  align-items: center;
+  .pages-list {
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+  }
+  .pages-list-item {
+    color: rgb(255, 255, 255);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    position: relative;
+    &::before{ 
+      content: '';
+      width: 0;
+      height: 2px;
+      border-radius: 2px;
+      background-color: #fff;
+      position: absolute;
+      bottom: -.25rem;
+      left: 0;
+      transition: width .4s;
+    }
+    &:hover::before {
+      width: 100%;
+    }
+  }
+}
+.active {
+  color: rgb(212, 20, 67);
+}
+
+
+.hero {
+  margin-top: 90px;
+  background-color: rgb(255, 184, 202);
+  // height: 925px;
+}
+.container-section-hero {
+  height: 576px;
+  width: 1106px;
+  padding-top: 75px;
+  margin: 0 auto;
+  // outline: 2px solid red;
+  position: relative;
+  background-image: url(../../images/section-hero/ice-cream-hero.svg);
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.img-numbers {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0;
+}
+.eco-milk {
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 45px;
+}
+.so-tasty {
+  position: absolute;
+  display: block;
+  right: 0;
+  bottom: 0;
+}
+
+.h1 {
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  width: 277px;
+  height: 137px;
+  font-family: "Titan One", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 43.51px;
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+.red{
+  color: #D41443;
+ }
+
+ .buttons{ 
+  margin-top: 26px;
+  button {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-family: 'DM Sans', sans-serif;
+  }
+  
+  button::before {
+    margin-left: auto;
+  }
+  
+  button::after, button::before {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background:  #D41443;
+    display: block;
+    transition: 0.5s;
+  }
+  
+  button:hover::after, button:hover::before {
+    width: 100%;
+  }
+ }
+
+.description{   
+  position: absolute;
+  bottom: 30px;
+  left: 220px;
+
+  width: 200px;
+  height: 78px;
+
+  color: rgb(255, 255, 255);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+
+
+
+
+// -------------------------------------------- 
+.button {
+  padding: 0;
+  margin: 0;
+  width: 159px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  gap: 15px;
+  background: rgb(255, 255, 255);
+  outline: 3px #181717 solid;
+  outline-offset: -3px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 400ms;
+}
+
+.button .text {
+  color: rgb(212, 20, 67);
+  font-weight: 700;
+  font-size: 1em;
+  transition: 400ms;
+}
+
+.button svg path {
+  transition: 400ms;
+}
+
+.button:hover {
+  border: 1px solid #D41443;
+  background-color: transparent;
+}
+
+.button:hover .text {
+  color: #181717;
+}
+
+.button:hover svg path {
+  fill: #181717;
+}
+// -------------------------------------------- 
