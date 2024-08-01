@@ -5,6 +5,7 @@
 
 .natural-products {
   margin-top: 127px;
+  margin-bottom: 119px;
 }
 .natural-products__titles {
   text-align: center;
@@ -190,6 +191,9 @@
 }
 
 @media ((min-width: 480px) and (max-width: 844px)) {
+  .natural-products {
+    margin-bottom: 112px;
+  }
   .natural-products h3 {
     font-size: 26px;
     line-height: 30px;
@@ -285,6 +289,9 @@
   }
 }
 @media (max-width: 480px) {
+  .natural-products {
+    margin-bottom: 98px;
+  }
   .natural-products h3 {
     font-size: 18px;
     line-height: 20px;
