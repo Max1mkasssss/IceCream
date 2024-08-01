@@ -32,7 +32,7 @@
         height: 735px;
         justify-content: center;
         gap: 27px;
-     
+
 
         &__card-one {
             width: 329px;
@@ -42,7 +42,7 @@
             &__img {
                 width: 337px;
                 height: 335px;
-              
+
             }
 
             &__text {
@@ -51,7 +51,7 @@
                 background-color: $pink-color;
                 border-radius: 24px;
                 margin-top: -75px;
-          
+
 
                 h3 {
                     font-family: $Titan-fonts;
@@ -235,13 +235,15 @@
 
             &__card-one {
                 width: 220px;
-&__img{
-  width: 220px;
-  height: 226px;  
-}
+
+                &__img {
+                    width: 220px;
+                    height: 226px;
+                }
+
                 &__text {
                     padding-top: 152px;
-                    height: 485px;  
+                    height: 485px;
                     margin-top: -122px;
 
                     h3 {
