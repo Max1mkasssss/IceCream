@@ -1,11 +1,11 @@
 .section-atural-products-container {
   width: 90%;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
 .natural-products {
   margin-top: 127px;
+  margin-bottom: 119px;
 }
 .natural-products__titles {
   text-align: center;
@@ -34,11 +34,16 @@
   width: 329px;
   text-align: center;
 }
+.natural-products__cards__card-one__img {
+  width: 335px;
+  height: 335px;
+}
 .natural-products__cards__card-one__text {
   padding-top: 163px;
   height: 525px;
   background-color: #FFA5BA;
   border-radius: 24px;
+  margin-top: -125px;
 }
 .natural-products__cards__card-one__text h3 {
   font-family: "Titan One", sans-serif;
@@ -82,11 +87,16 @@
   width: 329px;
   text-align: center;
 }
+.natural-products__cards__card-two__img {
+  width: 335px;
+  height: 335px;
+}
 .natural-products__cards__card-two__text {
   padding-top: 163px;
   height: 525px;
   background-color: #F0D1A5;
   border-radius: 24px;
+  margin-top: -125px;
 }
 .natural-products__cards__card-two__text h3 {
   font-family: "Titan One", sans-serif;
@@ -130,11 +140,16 @@
   width: 329px;
   text-align: center;
 }
+.natural-products__cards__card-three__img {
+  width: 335px;
+  height: 335px;
+}
 .natural-products__cards__card-three__text {
   padding-top: 163px;
   height: 525px;
   background-color: #C2E297;
   border-radius: 24px;
+  margin-top: -125px;
 }
 .natural-products__cards__card-three__text h3 {
   font-family: "Titan One", sans-serif;
@@ -176,6 +191,9 @@
 }
 
 @media ((min-width: 480px) and (max-width: 844px)) {
+  .natural-products {
+    margin-bottom: 112px;
+  }
   .natural-products h3 {
     font-size: 26px;
     line-height: 30px;
@@ -190,6 +208,10 @@
   }
   .natural-products__cards__card-one {
     width: 220px;
+  }
+  .natural-products__cards__card-one__img {
+    width: 220px;
+    height: 226px;
   }
   .natural-products__cards__card-one__text {
     padding-top: 152px;
@@ -214,6 +236,10 @@
   .natural-products__cards__card-two {
     width: 220px;
   }
+  .natural-products__cards__card-two__img {
+    width: 220px;
+    height: 226px;
+  }
   .natural-products__cards__card-two__text {
     padding-top: 152px;
     height: 485px;
@@ -237,6 +263,10 @@
   .natural-products__cards__card-three {
     width: 220px;
   }
+  .natural-products__cards__card-three__img {
+    width: 220px;
+    height: 226px;
+  }
   .natural-products__cards__card-three__text {
     padding-top: 152px;
     height: 485px;
@@ -259,6 +289,9 @@
   }
 }
 @media (max-width: 480px) {
+  .natural-products {
+    margin-bottom: 98px;
+  }
   .natural-products h3 {
     font-size: 18px;
     line-height: 20px;
@@ -270,16 +303,21 @@
   .natural-products__cards {
     gap: 130px;
     height: 2000px;
-    padding-top: 144px;
-    margin-left: 50px;
+    display: block;
+    margin: 0 auto;
     flex-direction: column;
     width: 280px;
   }
   .natural-products__cards__card-one {
     width: 280px;
   }
+  .natural-products__cards__card-one__img {
+    width: 249px;
+    height: 252px;
+  }
   .natural-products__cards__card-one__text {
     height: 485px;
+    margin-top: -150px;
   }
   .natural-products__cards__card-one__text p {
     width: 200px;
@@ -288,8 +326,13 @@
   .natural-products__cards__card-two {
     width: 280px;
   }
+  .natural-products__cards__card-two__img {
+    width: 249px;
+    height: 252px;
+  }
   .natural-products__cards__card-two__text {
     height: 485px;
+    margin-top: -150px;
   }
   .natural-products__cards__card-two__text p {
     width: 200px;
@@ -298,8 +341,13 @@
   .natural-products__cards__card-three {
     width: 280px;
   }
+  .natural-products__cards__card-three__img {
+    width: 249px;
+    height: 252px;
+  }
   .natural-products__cards__card-three__text {
     height: 485px;
+    margin-top: -150px;
   }
   .natural-products__cards__card-three__text p {
     width: 200px;
@@ -335,17 +383,28 @@
   color: #D31342;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 0;
+  margin-bottom: 106px;
 }
 
+.constituting-div {
+  position: relative;
+  display: flex;
+  gap: 74px;
+}
 .constituting-div__img {
   padding-left: 112px;
+  margin-top: -54px;
+  display: block;
 }
-
 .constituting-div__img-second {
-  margin-top: -370px;
+  left: 100px;
+  position: absolute;
 }
 
+.constituting-list {
+  outline: 1px solid red;
+  width: 463px;
+}
 .constituting-list__paragraph {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
