@@ -211,6 +211,7 @@
         h3 {
             font-size: 26px;
             line-height: 30px;
+
         }
 
         h2 {
@@ -222,6 +223,7 @@
         &__cards {
             height: 589px;
             gap: 20px;
+            // background-color: red;
 
             &__card-one {
                 width: 220px;
@@ -229,6 +231,8 @@
                 &__text {
                     padding-top: 152px;
                     height: 485px;
+                    // background-color: red;
+                    margin-top: -85px;
 
                     h3 {
                         font-size: 20px;
