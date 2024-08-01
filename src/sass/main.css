@@ -364,6 +364,11 @@
   margin: 0 auto;
 }
 
+@media (min-width: 1600px) {
+  .container2 {
+    width: 1600px;
+  }
+}
 .schedule {
   position: relative;
 }
