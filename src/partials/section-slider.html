@@ -1,0 +1,29 @@
+<div class="slider">
+    <div class="slides">
+        <img src="image1.jpg" alt="Слайд 1">
+        <img src="image2.jpg" alt="Слайд 2">
+        <img src="image3.jpg" alt="Слайд 3">
+    </div>
+    <div class="navigation">
+        <a href="#" class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a href="#" class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+</div>
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelector('.slides');
+    const totalSlides = slides.children.length;
+
+    function moveSlide(direction) {
+        slides.style.transition = 'transform 0.5s ease-in-out';
+        currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+        slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }
+
+    slides.addEventListener('transitionend', () => {
+        if (currentIndex === 0 || currentIndex === totalSlides - 1) {
+            slides.style.transition = 'none';
+            slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+    });
+</script>
