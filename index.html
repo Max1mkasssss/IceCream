@@ -122,7 +122,108 @@
     </div>
 </section>
     
-    
+    <div class="slider">
+    <div class="slides">
+        <div class="slide visible">
+            <img class="photo" src="photo/testimonials1.svg" alt="Слайд 1">
+            <div class="text-list">
+                <p class="text-style">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem.
+                    In
+                    hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+            </div>
+            <div class="elipse">
+                <ul class="elipse-list">
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                </ul>
+            </div>
+            <div class="girl-name">Emily, Los Angeles</div>
+
+        </div>
+        <div class="slide">
+            <img src="photo/testimonials2.svg" alt="Слайд 2">
+            <div class="text-list">
+                <p class="text-style">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem.
+                    In
+                    hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+            </div>
+            <div class="elipse">
+                <ul class="elipse-list">
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                </ul>
+            </div>
+            <div class="girl-name">Bella, California</div>
+        </div>
+        <div class="slide">
+            <img src="photo/testimonials3.svg" alt="Слайд 3">
+            <div class="text-list">
+                <p class="text-style">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. Aliquam sem.
+                    In
+                    hendrerit nulla quam nunc, accumsan congue. Lorem ipsum primis in nibh vel risus.
+                </p>
+            </div>
+            <div class="elipse">
+                <ul class="elipse-list">
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                    <li class="elips-number"><svg width="4" height="4" viewBox="0 0 4 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="2" cy="2" r="2" fill="#C7133E"/>
+                        </svg></li>
+                </ul>
+            </div>
+            <div class="girl-name">Rose, Texas</div>
+        </div>
+    </div>
+    <div class="dots">
+        <span class="dot active" onclick="currentSlide(0)"></span>
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+</div>
+
+<script>
+    let currentIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+
+    function currentSlide(index) {
+        currentIndex = index;
+        updateSlider();
+    }
+
+    function updateSlider() {
+        slides.forEach((slide, index) => {
+            slide.classList.toggle('visible', index === currentIndex);
+            dots[index].classList.toggle('active', index === currentIndex);
+        });
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+        updateSlider();
+    });
+</script>
+</div>
     <section class="schedule">
     <div class="schedule__background"></div>
     <div class="container2">
