@@ -1,18 +1,17 @@
-* {
-    box-sizing: border-box;
-}
+
 
 body {
     font-family: Arial, sans-serif;
 }
 
 .slider {
-    
+    margin-top: 132px;
+    margin-bottom: 132px;
     position: relative;
     width: 100%;
     max-width: 926px;
     height: 350px;
-    margin: auto;
+
     overflow: hidden;
 }
 
@@ -108,10 +107,13 @@ ul {
 
 .elipse {
     margin-top: -18px;
-    width: 32px;
+    width: 100%;
     height: 4px;
     gap: 0px;
     opacity: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .elipse-list {
