@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+          user-select: none;
 }
 
 body {
@@ -12,7 +15,7 @@ body {
 }
 
 .header {
-  z-index: 1000;
+  z-index: 3;
   height: 90px;
   position: fixed;
   align-items: center;
@@ -21,6 +24,10 @@ body {
   right: 0;
   left: 0;
   background-color: #ffb8ca;
+}
+
+.size-m {
+  display: none;
 }
 
 .nav-bar {
@@ -68,14 +75,18 @@ body {
 }
 
 .container-section-hero {
-  height: 576px;
+  height: 584px;
   width: 1106px;
   padding-top: 75px;
   margin: 0 auto;
   position: relative;
-  background-image: url(../../images/section-hero/ice-cream-hero.svg);
-  background-position-x: center;
-  background-repeat: no-repeat;
+}
+
+.ice-cream {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 170px;
 }
 
 .img-numbers {
@@ -147,8 +158,8 @@ body {
 
 .description {
   position: absolute;
-  bottom: 30px;
-  left: 220px;
+  bottom: 90px;
+  left: 230px;
   width: 200px;
   height: 78px;
   color: rgb(255, 255, 255);
@@ -204,6 +215,84 @@ body {
   fill: #181717;
 }
 
+.ice-cream {
+  animation: heartbeat 1.5s ease-in-out 1 both;
+}
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .size-l {
+    display: none;
+  }
+  .size-m {
+    display: block;
+  }
+  .header {
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffb8ca;
+  }
+  .nav-bar {
+    width: 701px;
+  }
+  button {
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-buttons {
+    display: flex;
+    gap: 10px;
+  }
+  .modal-button {
+    display: none;
+    z-index: 10;
+  }
+  .modal-list {
+    flex-direction: column;
+    display: flex;
+  }
+  .modal-list li a {
+    color: rgb(225, 121, 146);
+  }
+  .container-section-hero {
+    width: 701px;
+    height: 400px;
+    outline: 3px solid black;
+  }
+  .ice-cream {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    right: 130px;
+    width: 324px;
+  }
+}
 .section-atural-products-container {
   width: 90%;
   margin: 0 auto;

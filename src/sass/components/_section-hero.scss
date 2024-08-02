@@ -2,7 +2,7 @@
   display: flex;
 }
 .header {
-  z-index: 1000;
+  z-index: 3;
   height: 90px;
   position: fixed;
   align-items: center;
@@ -12,7 +12,9 @@
   left: 0;
   background-color: #ffb8ca;
 }
-
+.size-m{ 
+  display: none;
+}
 .nav-bar {
   // outline: 2px solid black;
   width: 1120px;
@@ -59,15 +61,22 @@
   // height: 925px;
 }
 .container-section-hero {
-  height: 576px;
+  height: 584px;
   width: 1106px;
   padding-top: 75px;
   margin: 0 auto;
   // outline: 2px solid red;
   position: relative;
-  background-image: url(../../images/section-hero/ice-cream-hero.svg);
-  background-position-x: center;
-  background-repeat: no-repeat;
+  // background-image: url(../../images/section-hero/ice-cream-hero.svg);
+  // background-position-x: center;
+  // background-repeat: no-repeat;
+}
+.ice-cream{ 
+  position: absolute;
+  display: block;
+  // bottom: 0;
+  top: 0;
+  right: 170px;
 }
 .img-numbers {
   position: absolute;
@@ -138,8 +147,8 @@
 
 .description{   
   position: absolute;
-  bottom: 30px;
-  left: 220px;
+  bottom: 90px;
+  left: 230px;
 
   width: 200px;
   height: 78px;
@@ -202,3 +211,135 @@
   fill: #181717;
 }
 // -------------------------------------------- 
+.ice-cream {
+	-webkit-animation: heartbeat 1.5s ease-in-out 1 both;
+	        animation: heartbeat 1.5s ease-in-out 1 both;
+}
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+// -------------------------------------------- 
+
+
+
+@media (min-width: 768px) and (max-width: 1200px){ 
+  .size-l{ 
+    display: none;
+  }
+  .size-m{ 
+    display: block;
+  }
+  .header {
+    z-index: 3;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #ffb8ca;
+  }
+ .nav-bar{ 
+  width: 701px;
+ }
+  button{ 
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+  .nav-buttons {
+    display: flex;
+    gap: 10px; 
+}
+  .modal-button{ 
+    display: none;
+    z-index: 10;
+  }
+  .modal-list{ 
+    flex-direction: column;
+    display: flex;
+    li{ 
+      a{ 
+        color: rgb(225, 121, 146);
+      }
+    }
+  }
+  .container-section-hero{ 
+    width: 701px;
+    height: 400px;
+    outline: 3px solid black;
+  }
+  .ice-cream{ 
+    position: absolute;
+    display: block;
+    bottom: 0;
+    // top: 0;
+    right: 130px;
+    width: 324px;
+    // height: 400px;
+  }
+} 
