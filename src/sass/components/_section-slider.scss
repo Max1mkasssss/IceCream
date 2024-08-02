@@ -7,6 +7,7 @@ body {
 }
 
 .slider {
+    
     position: relative;
     width: 100%;
     max-width: 926px;
@@ -16,6 +17,7 @@ body {
 }
 
 .slides {
+
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
