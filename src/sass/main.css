@@ -115,7 +115,7 @@ body {
   padding: 0;
   margin: 0;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 277px;
   height: 137px;
   font-family: "Titan One", sans-serif;
@@ -127,7 +127,7 @@ body {
 }
 
 .red {
-  color: #D41443;
+  color: #d41443;
 }
 
 .buttons {
@@ -145,15 +145,17 @@ body {
 .buttons button::before {
   margin-left: auto;
 }
-.buttons button::after, .buttons button::before {
+.buttons button::after,
+.buttons button::before {
   content: "";
   width: 0%;
   height: 2px;
-  background: #D41443;
+  background: #d41443;
   display: block;
   transition: 0.5s;
 }
-.buttons button:hover::after, .buttons button:hover::before {
+.buttons button:hover::after,
+.buttons button:hover::before {
   width: 100%;
 }
 
@@ -204,7 +206,7 @@ body {
 }
 
 .button:hover {
-  border: 1px solid #D41443;
+  border: 1px solid #d41443;
   background-color: transparent;
 }
 
@@ -250,7 +252,8 @@ body {
     display: block;
   }
   .header {
-    z-index: 3;
+    position: fixed;
+    width: 100%;
     align-items: center;
     justify-content: center;
     top: 0;
@@ -281,17 +284,98 @@ body {
   .modal-list li a {
     color: rgb(225, 121, 146);
   }
+  .hero {
+    padding-top: 45px;
+    background-color: rgb(255, 184, 202);
+    width: 100%;
+  }
   .container-section-hero {
     width: 701px;
     height: 400px;
-    outline: 3px solid black;
+    padding-top: 0;
   }
   .ice-cream {
     position: absolute;
     display: block;
-    bottom: 0;
-    right: 130px;
-    width: 324px;
+    top: -42px;
+    right: 78px;
+    width: 429px;
+    height: 443px;
+  }
+  .eco-milk {
+    bottom: 20px;
+  }
+  .so-tasty {
+    width: 168px;
+    height: 133px;
+    right: 50px;
+  }
+  .description {
+    display: none;
+  }
+  .h1 {
+    width: 162px;
+    height: 80px;
+    font-family: Titan One;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.19px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+  .buttons button {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-family: "DM Sans", sans-serif;
+  }
+  .buttons button::before {
+    margin-left: auto;
+  }
+  .buttons button::after,
+  .buttons button::before {
+    content: "";
+    width: 0%;
+    height: 2px;
+    background: #d41443;
+    display: block;
+    transition: 0.5s;
+  }
+  .buttons button:hover::after,
+  .buttons button:hover::before {
+    width: 100%;
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  .size-m {
+    display: none;
+  }
+  .size-s {
+    display: block;
+  }
+  .s-hide {
+    display: none;
+  }
+  .nav-bar {
+    width: 280px;
+  }
+  .hero {
+    height: 500px;
+  }
+  .container-section-hero {
+    width: 280px;
+  }
+  .modal-open-button {
+    display: block;
+  }
+  .ice-cream {
+    width: 346px;
+    height: 420px;
+    top: 0;
+    right: -50px;
   }
 }
 .section-atural-products-container {
