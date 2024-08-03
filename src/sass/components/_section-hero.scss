@@ -207,6 +207,11 @@
 .button:hover svg path {
   fill: #181717;
 }
+@media (min-width: 1200px) {
+  .modal-open-button {
+    display: none;
+  }
+}
 // --------------------------------------------
 .ice-cream {
   -webkit-animation: heartbeat 1.5s ease-in-out 1 both;
@@ -357,7 +362,7 @@
   .h1 {
     width: 162px;
     height: 80px;
-    font-family: Titan One;
+    font-family: 'Titan One', sans-serif;
     font-size: 22px;
     font-weight: 400;
     line-height: 25.19px;
@@ -374,11 +379,11 @@
       font-weight: 400;
       font-family: 'DM Sans', sans-serif;
     }
-  
+
     button::before {
       margin-left: auto;
     }
-  
+
     button::after,
     button::before {
       content: '';
@@ -388,40 +393,81 @@
       display: block;
       transition: 0.5s;
     }
-  
+
     button:hover::after,
     button:hover::before {
       width: 100%;
     }
   }
+  .button {
+    display: flex;
+  }
 }
 
-@media (min-width: 320px) and (max-width: 768px){ 
-  .size-m{ 
-    display: none;
+@media (min-width: 320px) and (max-width: 768px) {
+  .nav-bar {
+    width: 300px;
   }
-  .size-s{ 
-    display: block;
-  }
-  .s-hide{ 
-    display: none;
-  }
-  .nav-bar{ 
-    width: 280px;
-  }
-  .hero{ 
+  .hero {
     height: 500px;
+    overflow-x: hidden;
+    background: url(../../images/section-hero/ice-cream-hero-s.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 120%;
   }
-  .container-section-hero{ 
-    width: 280px;
+  .container-section-hero {
+    width: 300px;
+    height: 100%;
   }
-  .modal-open-button{ 
+  .modal-open-button {
+    display: block;
+    z-index: 10;
+    position: relative;
+  }
+  .ice-cream {
+    display: none;
+  }
+  .h1 {
+    font-family: 'Titan One', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 29.77px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    width: 218px;
+    height: 106px;
+  }
+  .buttons {
+    width: 110px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    button {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .button {
+    display: flex;
+  }
+  .size-m {
+    display: none;
+  }
+  .size-s {
     display: block;
   }
-  .ice-cream{ 
-    width: 346px;
-    height: 420px;
-    top: 0;
-    right: -50px;
+  .s-hide {
+    display: none;
+  }
+  .modal-list {
+    flex-direction: column;
+    .pages-list-item {
+      &__link {
+        color: black;
+      }
+    }
   }
 }
