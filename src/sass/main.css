@@ -818,8 +818,13 @@ body {
   margin-top: -54px;
   display: block;
 }
+.constituting-div__img-first {
+  position: absolute;
+  bottom: -434px;
+}
 .constituting-div__img-second {
-  left: 100px;
+  left: 215px;
+  bottom: -444px;
   position: absolute;
 }
 
