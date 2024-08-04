@@ -793,7 +793,6 @@ body {
   font-family: "Titan One", sans-serif;
   font-size: 30px;
   font-weight: 400;
-  line-height: 35px;
   color: #FFA5BA;
   text-align: center;
   padding-top: 125px;
@@ -803,7 +802,6 @@ body {
   font-family: "Titan One", sans-serif;
   font-size: 58px;
   font-weight: 400;
-  line-height: 66px;
   color: #D31342;
   text-align: center;
   margin-top: 15px;
@@ -833,13 +831,35 @@ body {
   font-family: "DM Sans", sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 28px;
   color: #000000;
   padding-bottom: 35px;
 }
 
 .second-paragraph {
   color: #907E82;
+}
+
+.quantity-list {
+  display: flex;
+  gap: 120px;
+  margin-top: 100px;
+  margin-left: 115px;
+}
+.quantity-list__img {
+  margin-bottom: 40px;
+}
+.quantity-list__title {
+  font-family: "Titan One", sans-serif;
+  font-size: 58px;
+  font-weight: 400;
+  color: #D31342;
+  margin-bottom: 15px;
+}
+.quantity-list__paragraph {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000000;
 }
 
 body {

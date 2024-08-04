@@ -11,7 +11,6 @@
         font-family: $Titan-fonts;
         font-size: 30px;
         font-weight: 400;
-        line-height: 35px;
         color: $pink-color;
         text-align: center;
         padding-top: 125px;
@@ -21,7 +20,6 @@
         font-family: $Titan-fonts;
         font-size: 58px;
         font-weight: 400;
-        line-height: 66px;
         color: $home-icon-color;
         text-align: center;
         margin-top: 15px;
@@ -48,18 +46,36 @@
  outline: 1px solid red;
  width: 463px;
  
-    &__item{
-
-    }
     &__paragraph{
         font-family: $DM-Sans-fonts;
         font-size: 16px;
         font-weight: 700;
-        line-height: 28px;
         color: $black-color;
         padding-bottom: 35px;
     }
 }
 .second-paragraph{
     color: $grey-color;
+}
+.quantity-list{
+    display: flex;
+    gap: 120px;
+    margin-top: 100px;
+    margin-left: 115px;
+    &__img{
+        margin-bottom: 40px;
+    }
+    &__title{
+        font-family: $Titan-fonts;
+        font-size: 58px;
+        font-weight: 400;
+        color: $home-icon-color; 
+        margin-bottom: 15px;
+    }
+    &__paragraph{
+        font-family: $DM-Sans-fonts;
+        font-size: 16px;
+        font-weight: 700;
+        color: $black-color;
+    }
 }
