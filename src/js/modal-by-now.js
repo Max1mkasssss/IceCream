@@ -1,18 +1,20 @@
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("openModalBtn");
-var span = document.getElementsByClassName("close")[0];
+document.getElementById('openModalBtn').addEventListener('click', function() {
+    document.getElementById('myModal').classList.add('show');
+});
+
+document.getElementById('closeModalBtn').addEventListener('click', function() {
+    document.getElementById('myModal').classList.remove('show');
+});
 
 
-btn.onclick = function() {
-    modal.style.display = "block";
-}
- 
-span.onclick = function() {
-    modal.style.display = "none";
-}
-
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+window.addEventListener('click', function(event) {
+    if (event.target == document.getElementById('myModal')) {
+        document.getElementById('myModal').classList.remove('show');
     }
-}
+});
+
+window.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') {
+        document.getElementById('myModal').classList.remove('show');
+    }
+});
