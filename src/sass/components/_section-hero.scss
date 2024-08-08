@@ -12,7 +12,7 @@
   left: 0;
   background-color: #ffb8ca;
 }
-.size-m{ 
+.size-m {
   display: none;
 }
 .nav-bar {
@@ -34,16 +34,16 @@
     letter-spacing: 0%;
     text-align: left;
     position: relative;
-    &::before{ 
+    &::before {
       content: '';
       width: 0;
       height: 2px;
       border-radius: 2px;
       background-color: #fff;
       position: absolute;
-      bottom: -.25rem;
+      bottom: -0.25rem;
       left: 0;
-      transition: width .4s;
+      transition: width 0.4s;
     }
     &:hover::before {
       width: 100%;
@@ -53,7 +53,6 @@
 .active-link {
   color: rgb(212, 20, 67);
 }
-
 
 .hero {
   margin-top: 90px;
@@ -71,7 +70,7 @@
   // background-position-x: center;
   // background-repeat: no-repeat;
 }
-.ice-cream{ 
+.ice-cream {
   position: absolute;
   display: block;
   // bottom: 0;
@@ -101,21 +100,21 @@
   padding: 0;
   margin: 0;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 277px;
   height: 137px;
-  font-family: "Titan One", sans-serif;
+  font-family: 'Titan One', sans-serif;
   font-size: 38px;
   font-weight: 400;
   line-height: 43.51px;
   letter-spacing: 0.04em;
   text-align: left;
 }
-.red{
-  color: #D41443;
- }
+.red {
+  color: #d41443;
+}
 
- .buttons{ 
+.buttons {
   margin-top: 26px;
   button {
     color: white;
@@ -126,26 +125,28 @@
     font-weight: 400;
     font-family: 'DM Sans', sans-serif;
   }
-  
+
   button::before {
     margin-left: auto;
   }
-  
-  button::after, button::before {
+
+  button::after,
+  button::before {
     content: '';
     width: 0%;
     height: 2px;
-    background:  #D41443;
+    background: #d41443;
     display: block;
     transition: 0.5s;
   }
-  
-  button:hover::after, button:hover::before {
+
+  button:hover::after,
+  button:hover::before {
     width: 100%;
   }
- }
+}
 
-.description{   
+.description {
   position: absolute;
   bottom: 90px;
   left: 230px;
@@ -162,11 +163,7 @@
   text-align: left;
 }
 
-
-
-
-
-// -------------------------------------------- 
+// --------------------------------------------
 .button {
   padding: 0;
   margin: 0;
@@ -199,7 +196,7 @@
 }
 
 .button:hover {
-  border: 1px solid #D41443;
+  border: 1px solid #d41443;
   background-color: transparent;
 }
 
@@ -210,92 +207,96 @@
 .button:hover svg path {
   fill: #181717;
 }
-// -------------------------------------------- 
+@media (min-width: 1200px) {
+  .modal-open-button {
+    display: none;
+  }
+}
+// --------------------------------------------
 .ice-cream {
-	-webkit-animation: heartbeat 1.5s ease-in-out 1 both;
-	        animation: heartbeat 1.5s ease-in-out 1 both;
+  -webkit-animation: heartbeat 1.5s ease-in-out 1 both;
+  animation: heartbeat 1.5s ease-in-out 1 both;
 }
 @-webkit-keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-transform-origin: center center;
-            transform-origin: center center;
+    transform-origin: center center;
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   10% {
     -webkit-transform: scale(0.91);
-            transform: scale(0.91);
+    transform: scale(0.91);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   17% {
     -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    transform: scale(0.98);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   33% {
     -webkit-transform: scale(0.87);
-            transform: scale(0.87);
+    transform: scale(0.87);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   45% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
 @keyframes heartbeat {
   from {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-transform-origin: center center;
-            transform-origin: center center;
+    transform-origin: center center;
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   10% {
     -webkit-transform: scale(0.91);
-            transform: scale(0.91);
+    transform: scale(0.91);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   17% {
     -webkit-transform: scale(0.98);
-            transform: scale(0.98);
+    transform: scale(0.98);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
   33% {
     -webkit-transform: scale(0.87);
-            transform: scale(0.87);
+    transform: scale(0.87);
     -webkit-animation-timing-function: ease-in;
-            animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
   }
   45% {
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
     -webkit-animation-timing-function: ease-out;
-            animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
   }
 }
-// -------------------------------------------- 
+// --------------------------------------------
 
-
-
-@media (min-width: 768px) and (max-width: 1200px){ 
-  .size-l{ 
+@media (min-width: 768px) and (max-width: 1200px) {
+  .size-l {
     display: none;
   }
-  .size-m{ 
+  .size-m {
     display: block;
   }
   .header {
-    z-index: 3;
+    position: fixed;
+    width: 100%;
     align-items: center;
     justify-content: center;
     top: 0;
@@ -303,43 +304,334 @@
     left: 0;
     background-color: #ffb8ca;
   }
- .nav-bar{ 
-  width: 701px;
- }
-  button{ 
+  .nav-bar {
+    width: 701px;
+  }
+  .button-block {
     display: block;
     padding: 0;
     margin: 0;
   }
   .nav-buttons {
     display: flex;
-    gap: 10px; 
-}
-  .modal-button{ 
+    gap: 10px;
+  }
+  .modal-button {
     display: none;
     z-index: 10;
   }
-  .modal-list{ 
+  .modal-list {
     flex-direction: column;
     display: flex;
-    li{ 
-      a{ 
+    li {
+      a {
         color: rgb(225, 121, 146);
       }
     }
   }
-  .container-section-hero{ 
+  .hero {
+    padding-top: 45px;
+    background-color: rgb(255, 184, 202);
+    width: 100%;
+  }
+  .container-section-hero {
     width: 701px;
     height: 400px;
-    outline: 3px solid black;
+    // outline: 3px solid black;
+    padding-top: 0;
   }
-  .ice-cream{ 
+  .ice-cream {
     position: absolute;
     display: block;
-    bottom: 0;
-    // top: 0;
-    right: 130px;
-    width: 324px;
-    // height: 400px;
+    top: -42px;
+    right: 78px;
+    width: 429px;
+    height: 443px;
   }
-} 
+  .eco-milk {
+    bottom: 20px;
+  }
+  .so-tasty {
+    width: 168px;
+    height: 133px;
+    right: 50px;
+  }
+  .description {
+    display: none;
+  }
+  .h1 {
+    width: 162px;
+    height: 80px;
+    font-family: 'Titan One', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25.19px;
+    letter-spacing: 0.04em;
+    text-align: left;
+  }
+  .buttons {
+    button {
+      color: white;
+      text-decoration: none;
+      font-size: 14px;
+      border: none;
+      background: none;
+      font-weight: 400;
+      font-family: 'DM Sans', sans-serif;
+    }
+
+    button::before {
+      margin-left: auto;
+    }
+
+    button::after,
+    button::before {
+      content: '';
+      width: 0%;
+      height: 2px;
+      background: #d41443;
+      display: block;
+      transition: 0.5s;
+    }
+
+    button:hover::after,
+    button:hover::before {
+      width: 100%;
+    }
+  }
+  .button {
+    display: flex;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  .nav-bar {
+    width: 300px;
+  }
+  .hero {
+    height: 500px;
+    overflow-x: hidden;
+    background: url(../../images/section-hero/ice-cream-hero-s.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 120%;
+  }
+  .container-section-hero {
+    width: 300px;
+    height: 100%;
+  }
+  .modal-open-button {
+    display: block;
+    z-index: 10;
+    position: relative;
+  }
+  .ice-cream {
+    display: none;
+  }
+  .h1 {
+    font-family: 'Titan One', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 29.77px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    width: 218px;
+    height: 106px;
+  }
+  .buttons {
+    width: 110px;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    button {
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .button {
+    display: flex;
+  }
+  .size-m {
+    display: none;
+  }
+  .size-s {
+    display: block;
+  }
+  .s-hide {
+    display: none;
+  }
+  .modal-list {
+    flex-direction: column;
+    .pages-list-item {
+      &__link {
+        color: black;
+      }
+    }
+  }
+}
+
+
+/* From Uiverse.io by zanina-yassine */ 
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+  height: fit-content;
+  background: #FFFFFF;
+  box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 26px;
+  max-width: 450px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+.payment--options {
+  width: calc(100% - 40px);
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  gap: 20px;
+  padding: 10px;
+}
+
+.payment--options button {
+  height: 55px;
+  background: #F2F2F2;
+  border-radius: 11px;
+  padding: 0;
+  border: 0;
+  outline: none;
+}
+
+.payment--options button svg {
+  height: 18px;
+}
+
+.payment--options button:last-child svg {
+  height: 22px;
+}
+
+.separator {
+  width: calc(100% - 20px);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 10px;
+  color: #8B8E98;
+  margin: 0 10px;
+}
+
+.separator > p {
+  word-break: keep-all;
+  display: block;
+  text-align: center;
+  font-weight: 600;
+  font-size: 11px;
+  margin: auto;
+}
+
+.separator .line {
+  display: inline-block;
+  width: 100%;
+  height: 1px;
+  border: 0;
+  background-color: #e8e8e8;
+  margin: auto;
+}
+
+.credit-card-info--form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input_container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.split {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  gap: 15px;
+}
+
+.split input {
+  width: 100%;
+}
+
+.input_label {
+  font-size: 10px;
+  color: #8B8E98;
+  font-weight: 600;
+}
+
+.input_field {
+  width: auto;
+  height: 40px;
+  padding: 0 0 0 16px;
+  border-radius: 9px;
+  outline: none;
+  background-color: #F2F2F2;
+  border: 1px solid #e5e5e500;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.input_field:focus {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px #242424;
+  background-color: transparent;
+}
+
+.purchase--btn {
+  height: 55px;
+  background: #F2F2F2;
+  border-radius: 11px;
+  border: 0;
+  outline: none;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #363636 0%, #1B1B1B 50%, #000000 100%);
+  box-shadow: 0px 0px 0px 0px #FFFFFF, 0px 0px 0px 0px #000000;
+  transition: all 0.3s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.purchase--btn:hover {
+  box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px #0000003a;
+}
+
+/* Reset input number styles */
+.input_field::-webkit-outer-spin-button,
+.input_field::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.close-btn svg {
+  width: 16px;
+  height: 16px;
+  fill: #333;
+}
+
+.modal.show {
+  display: block;
+}

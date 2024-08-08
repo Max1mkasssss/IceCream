@@ -1,0 +1,18 @@
+.arrow-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.arrow-up a {
+  width: 50px;
+  height: 50px;
+  background: #DB7093;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  border-radius: 50px;
+  color: var(--main-text-color);
+  transition: .5s;
+}
