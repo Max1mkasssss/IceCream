@@ -1143,7 +1143,9 @@ body {
 }
 
 .active {
-  background-color: #D31342;
+  background-image: url(../../images/section-slider/home.png);
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 .visible {
@@ -1157,11 +1159,12 @@ ul {
 
 .elipse {
   margin-top: -18px;
-  max-width: 940px;
+  max-width: 53px;
   height: 4px;
   gap: 0px;
   opacity: 0px;
-  margin-left: -54px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .elipse-list {
