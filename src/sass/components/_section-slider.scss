@@ -1,22 +1,21 @@
-
+* {
+    box-sizing: border-box;
+}
 
 body {
     font-family: Arial, sans-serif;
 }
 
 .slider {
-    margin-top: 132px;
-    margin-bottom: 132px;
     position: relative;
     width: 100%;
     max-width: 926px;
     height: 350px;
-
+    margin: auto;
     overflow: hidden;
 }
 
 .slides {
-
     display: flex;
     transition: transform 0.5s ease-in-out;
 }
@@ -37,27 +36,29 @@ body {
     gap: 0px;
     border-radius: 44px 0px 0px 0px;
     opacity: 0px;
-    margin-left: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 15px;
-
 }
 
 .text-list {
     background-image: url(/photo/“.svg);
     background-repeat: no-repeat;
     background-position: 50px 32px;
-    width: 926px; 
+    width: 100%;
     height: 138px;
     gap: 0px;
     border: 1px 0px 0px 0px;
     opacity: 0px;
-    background-color: #FAFAFA
+    background-color: #FAFAFA;
+    text-align: center;
 }
 
 .text-style {
     z-index: 100;
-    width: 750px;
-    height: 52px;
+    max-width: 750px;
+    max-height: 52px;
     top: 3721px;
     left: 265px;
     gap: 0px;
@@ -72,13 +73,15 @@ body {
     padding-top: 47px;
 
 
+
 }
 
 .dots {
     position: absolute;
     margin-top: 24px;
     width: 100%;
-    margin-left: 425px;
+    text-align: center;
+    margin-left: 18px;
 }
 
 .dot {
@@ -107,20 +110,21 @@ ul {
 
 .elipse {
     margin-top: -18px;
-    width: 100%;
+    max-width: 940px;
     height: 4px;
     gap: 0px;
     opacity: 0px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
+    margin-left: -54px;
+    
+
 }
 
 .elipse-list {
-    width: 32px;
+    max-width: 32px;
     height: 4px;
     display: flex;
-    margin-left: 395px
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .elips-number {
@@ -129,10 +133,11 @@ ul {
     gap: 0px;
     opacity: 0px;
     margin: 0 10px;
+   
 }
 
 .girl-name {
-    width: 940px;
+    width: 100%;
     height: 31px;
     font-family: 'DM Sans';
     font-size: 20px;
@@ -140,6 +145,6 @@ ul {
     line-height: 37.2px;
     margin-top: 20px;
     text-align: center;
+    margin-left: 13px;
 
 }
-
