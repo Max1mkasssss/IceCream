@@ -1,6 +1,5 @@
 .how-its-made-container{
     width: 90%;
-    border: 1px solid red;
     margin: 0 auto;
 }
 .how-its-made-section{
@@ -41,9 +40,10 @@
         bottom: -434px;
     }
     &__img-second{
-        left: 215px;
+        left: 59px;
         bottom: -444px;
         position: absolute;
+        z-index: -1;
         }
 
 }

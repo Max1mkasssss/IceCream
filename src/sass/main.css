@@ -962,7 +962,6 @@ body {
 }
 .how-its-made-container {
   width: 90%;
-  border: 1px solid red;
   margin: 0 auto;
 }
 
@@ -1005,9 +1004,10 @@ body {
   bottom: -434px;
 }
 .constituting-div__img-second {
-  left: 215px;
+  left: 59px;
   bottom: -444px;
   position: absolute;
+  z-index: -1;
 }
 
 .constituting-list {
