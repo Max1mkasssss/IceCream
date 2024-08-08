@@ -1227,4 +1227,58 @@ ul {
   background-color: rgb(228, 215, 217);
   transform: scale(0.95);
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tracking-in-expand-fwd-top {
+  animation: tracking-in-expand-fwd-top 1.1s cubic-bezier(0.215, 0.61, 0.355, 1) both;
+}
+@keyframes tracking-in-expand-fwd-top {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateZ(-700px) translateY(-500px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+.slide-in-right {
+  animation: slide-in-right 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+@keyframes slide-in-right {
+  0% {
+    transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.animate__bounce {
+  animation: bounce;
+  animation-duration: 2.5s;
+}
+
+.arrow-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1;
+}
+
+.arrow-up a {
+  width: 50px;
+  height: 50px;
+  background: #DB7093;
+  text-align: center;
+  display: block;
+  line-height: 50px;
+  border-radius: 50px;
+  color: var(--main-text-color);
+  transition: 0.5s;
 }/*# sourceMappingURL=main.css.map */
