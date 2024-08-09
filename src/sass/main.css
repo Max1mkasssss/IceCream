@@ -209,7 +209,7 @@ body {
   transition: 400ms;
 }
 
-.button .text {
+.button-buy-now {
   color: rgb(212, 20, 67);
   font-weight: 700;
   font-size: 1em;
