@@ -1047,6 +1047,26 @@ body {
   color: #000000;
 }
 
+@media (min-width: 768px) and (max-width: 1368px) {
+  .container-adaptive {
+    width: 772px;
+  }
+  .quantity-list {
+    margin-left: -90;
+  }
+  .constituting-div {
+    gap: 17px;
+  }
+  .constituting-div__img-first {
+    display: none;
+  }
+  .constituting-div__img-second {
+    display: none;
+  }
+  .constituting-div__img {
+    margin-left: -197px;
+  }
+}
 * {
   box-sizing: border-box;
 }
