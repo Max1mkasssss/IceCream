@@ -53,11 +53,12 @@
     <load="partials/section-schedule.html"/>
   </main>
   <footer>
-    <load="partials/modal-team.html">
+    <load="partials/modal-team.html"/>
     <load="partials/footer.html"/>
   </footer>
 
-  <script type="module" src="./js/modal-team.js"></script>
+  <script src="./js/modal-team.js"></script>
+  <script src="./js/arrow-header.js"></script>
   <script type="module" src="./js/modal-by-now.js"></script>
   <script type="module" src="./js/modal-close-by-buttons.js"></script>
   <script type="module" src="/main.js"></script>
@@ -69,18 +70,6 @@
   <script>
     AOS.init();
   </script>
-  <script>
-    window.onscroll = function showHeader() {
-        let header = document.querySelector('.header');
-
-        if (window.pageYOffset > 200) {
-            header.classList.add('header__fixed');
-        } else {
-            header.classList.remove('header__fixed');
-
-        }
-    }
-</script>
 </body>
 
 </html>
