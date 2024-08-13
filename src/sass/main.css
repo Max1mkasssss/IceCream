@@ -379,7 +379,7 @@ body {
   .hero {
     height: 500px;
     overflow-x: hidden;
-    background: url(../../images/section-hero/ice-cream-hero-s.svg);
+    background: url(../images/section-hero/ice-cream-hero-s.svg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: 120%;
