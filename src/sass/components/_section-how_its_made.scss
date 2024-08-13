@@ -1,5 +1,5 @@
 .how-its-made-container{
-    width: 90%;
+    width: 1110px;
     margin: 0 auto;
 }
 .how-its-made-section{
@@ -37,10 +37,10 @@
     }
     &__img-first{
         position: absolute;
-        bottom: -434px;
+        bottom: -338px;
     }
     &__img-second{
-        left: 59px;
+        left: 84px;
         bottom: -444px;
         position: absolute;
         z-index: -1;
@@ -48,7 +48,6 @@
 
 }
 .constituting-list{
- outline: 1px solid red;
  width: 463px;
  
     &__paragraph{
@@ -66,7 +65,6 @@
     display: flex;
     gap: 120px;
     margin-top: 100px;
-    margin-left: 115px;
     &__img{
         margin-bottom: 40px;
     }

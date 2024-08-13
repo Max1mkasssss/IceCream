@@ -961,7 +961,7 @@ body {
   }
 }
 .how-its-made-container {
-  width: 90%;
+  width: 1110px;
   margin: 0 auto;
 }
 
@@ -1001,17 +1001,16 @@ body {
 }
 .constituting-div__img-first {
   position: absolute;
-  bottom: -434px;
+  bottom: -338px;
 }
 .constituting-div__img-second {
-  left: 59px;
+  left: 84px;
   bottom: -444px;
   position: absolute;
   z-index: -1;
 }
 
 .constituting-list {
-  outline: 1px solid red;
   width: 463px;
 }
 .constituting-list__paragraph {
@@ -1030,7 +1029,6 @@ body {
   display: flex;
   gap: 120px;
   margin-top: 100px;
-  margin-left: 115px;
 }
 .quantity-list__img {
   margin-bottom: 40px;
@@ -1473,4 +1471,200 @@ ul {
   border-radius: 50px;
   color: var(--main-text-color);
   transition: 0.5s;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.open-modal-button {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #FEA5BB;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+
+.open-modal-button:hover {
+  background-color: #d6718a;
+  transform: scale(1.05);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+  z-index: 999;
+}
+
+.team__modal {
+  display: none;
+  /* Скрыто по умолчанию */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.8);
+  background: linear-gradient(to right, #FFA5BA, #5789df);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  max-width: 80%;
+  max-height: 80%;
+  overflow-y: auto;
+  color: white;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.team__modal.show {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+}
+
+.team__title {
+  margin: 0 227px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #f9cd8e;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  transition: color 0.3s, transform 0.3s;
+}
+
+.team-name {
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 186%;
+  letter-spacing: 0%;
+  color: black;
+}
+
+.team-name:hover {
+  color: #a967a8;
+}
+
+.team__title:hover {
+  color: #dcaa64;
+  transform: scale(1.05);
+}
+
+.team-role {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 200;
+  line-height: 186%;
+  letter-spacing: 0%;
+  color: black;
+}
+
+.team__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  overflow-y: auto;
+  max-height: 60vh;
+  padding: 10px;
+}
+
+.team__wrapper::-webkit-scrollbar {
+  width: 8px;
+}
+
+.team__wrapper::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.team__wrapper::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  -webkit-transition: background 0.3s;
+  transition: background 0.3s;
+}
+
+.team__wrapper::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.team__card {
+  background-color: rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.team__card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.team__card a {
+  display: inline-block;
+  margin: 5px 0;
+  color: white;
+}
+
+.team__card svg {
+  fill: white;
+  transition: fill 0.3s;
+}
+
+.team__card:hover svg {
+  fill: #ffd700;
+}
+
+.team_photo__img {
+  border-radius: 50px;
+  width: 100px;
+  height: 110px;
+}
+
+.team_photo__img_1 {
+  border-radius: 50px;
+  width: 105px;
+  height: 100px;
+}
+
+.team_photo__img_2 {
+  border-radius: 50px;
+  width: 100px;
+  height: 110px;
+}
+
+.team_photo__img_3 {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.close-button {
+  cursor: pointer;
+  background-color: #D41443;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  float: right;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.close-button:hover {
+  background-color: #e53935;
+  transform: scale(1.05);
 }/*# sourceMappingURL=main.css.map */
