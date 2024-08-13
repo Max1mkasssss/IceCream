@@ -36,8 +36,8 @@
 
   <!-- Animate AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <script type="module" crossorigin src="/IceCream/assets/index-6a5fc1f2.js"></script>
-  <link rel="stylesheet" href="/IceCream/assets/index-8a3e6236.css">
+  <script type="module" crossorigin src="/IceCream/assets/index-05c9a4dc.js"></script>
+  <link rel="stylesheet" href="/IceCream/assets/index-422b658d.css">
 </head>
 <body>
 
@@ -301,7 +301,7 @@
   </div>
 </section>
     <section class="how-its-made-section" id="how-its-made">
-    <div class="how-its-made-container" data-aos="fade-right" data-aos-duration="2000">
+    <div class="how-its-made-container container-adaptive" data-aos="fade-right" data-aos-duration="2000">
         <div class="how-its-made-title">
             <h3 class="how-its-made-section__title-first">TRADITION AND LOVE</h3>
             <h1 class="how-its-made-section__title-second">HOW IT'S MADE?</h1>
@@ -597,9 +597,14 @@
         </div>
     </div>
   </div>
+    <footer class="footer" id="contacts">
+  <button class="open-modal-button" onclick="openModal()">GoIT Students</button>
+  <div class="modal-backdrop" id="modalBackdrop"></div>
+</footer>
   </footer>
 
-  
+  <script src="./js/modal-team.js"></script>
+  <script src="./js/arrow-header.js"></script>
   
   
   
@@ -611,18 +616,6 @@
   <script>
     AOS.init();
   </script>
-  <script>
-    window.onscroll = function showHeader() {
-        let header = document.querySelector('.header');
-
-        if (window.pageYOffset > 200) {
-            header.classList.add('header__fixed');
-        } else {
-            header.classList.remove('header__fixed');
-
-        }
-    }
-</script>
 </body>
 
 </html>
