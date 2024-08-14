@@ -1065,6 +1065,43 @@ body {
     margin-left: -197px;
   }
 }
+@media (min-width: 360px) and (max-width: 932px) {
+  .how-its-made-title {
+    width: 200px;
+    margin-left: 111px;
+  }
+  .constituting-div {
+    display: block;
+  }
+  .constituting-div__img {
+    width: 470px;
+    margin-left: -125px;
+    margin-top: -90px;
+  }
+  .constituting-div__img-first {
+    width: 370px;
+    bottom: -15px;
+  }
+  .constituting-div__img-second {
+    width: 400px;
+    left: -27px;
+    bottom: -43px;
+  }
+  .constituting-list {
+    width: 250px;
+    margin-left: 50px;
+  }
+  .how-its-made-section {
+    height: 1688px;
+  }
+  .quantity-list {
+    display: block;
+    margin-left: 20px;
+  }
+  .quantity-list__item {
+    margin-bottom: 38px;
+  }
+}
 * {
   box-sizing: border-box;
 }

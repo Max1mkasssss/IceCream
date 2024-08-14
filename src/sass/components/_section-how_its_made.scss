@@ -102,3 +102,40 @@
     }
 }
 }
+@media (min-width: 360px) and (max-width: 932px){
+    .how-its-made-title{
+        width: 200px;
+        margin-left: 111px;
+    }
+    .constituting-div{
+        display: block;
+        &__img{
+            width: 470px;
+            margin-left: -125px;
+            margin-top: -90px;
+        }
+        &__img-first{
+            width: 370px;
+            bottom: -15px;
+        }
+        &__img-second{
+            width: 400px;
+            left: -27px;
+            bottom: -43px;
+        }
+    }
+    .constituting-list{
+        width: 250px;
+        margin-left: 50px;
+    }
+    .how-its-made-section{
+        height: 1688px;
+    }
+    .quantity-list{
+        display: block;
+        margin-left: 20px;
+        &__item{
+            margin-bottom: 38px;
+        }
+    }
+}
