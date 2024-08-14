@@ -437,7 +437,6 @@ body {
     color: black;
   }
 }
-/* From Uiverse.io by zanina-yassine */
 .modal {
   position: fixed;
   top: 50%;
@@ -578,7 +577,6 @@ body {
   box-shadow: 0px 0px 0px 2px #FFFFFF, 0px 0px 0px 4px rgba(0, 0, 0, 0.2274509804);
 }
 
-/* Reset input number styles */
 .input_field::-webkit-outer-spin-button,
 .input_field::-webkit-inner-spin-button {
   -webkit-appearance: none;
@@ -1161,7 +1159,7 @@ body {
 }
 
 .active {
-  background-image: url(../../images/section-slider/home.png);
+  background-image: url(../images/section-slider/home.png);
   background-repeat: no-repeat;
   background-color: white;
 }
@@ -1531,7 +1529,6 @@ body {
 
 .team__modal {
   display: none;
-  /* Скрыто по умолчанию */
   position: fixed;
   top: 50%;
   left: 50%;
