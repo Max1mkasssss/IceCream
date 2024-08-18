@@ -1,5 +1,5 @@
 .how-its-made-container{
-    width: 90%;
+    width: 1110px;
     margin: 0 auto;
 }
 .how-its-made-section{
@@ -37,10 +37,10 @@
     }
     &__img-first{
         position: absolute;
-        bottom: -434px;
+        bottom: -338px;
     }
     &__img-second{
-        left: 59px;
+        left: 84px;
         bottom: -444px;
         position: absolute;
         z-index: -1;
@@ -48,7 +48,6 @@
 
 }
 .constituting-list{
- outline: 1px solid red;
  width: 463px;
  
     &__paragraph{
@@ -66,7 +65,6 @@
     display: flex;
     gap: 120px;
     margin-top: 100px;
-    margin-left: 115px;
     &__img{
         margin-bottom: 40px;
     }
@@ -82,5 +80,62 @@
         font-size: 16px;
         font-weight: 700;
         color: $black-color;
+    }
+}
+@media (min-width: 768px) and (max-width: 1368px) {
+    .container-adaptive{
+      width: 772px;
+    }
+.quantity-list{
+    margin-left: -90;
+}
+.constituting-div{
+    gap: 17px;
+    &__img-first{
+        display: none;
+    }
+    &__img-second{
+        display: none;
+    }
+    &__img{
+        margin-left: -197px;
+    }
+}
+}
+@media (min-width: 360px) and (max-width: 932px){
+    .how-its-made-title{
+        width: 200px;
+        margin-left: 111px;
+    }
+    .constituting-div{
+        display: block;
+        &__img{
+            width: 470px;
+            margin-left: -125px;
+            margin-top: -90px;
+        }
+        &__img-first{
+            width: 370px;
+            bottom: -15px;
+        }
+        &__img-second{
+            width: 400px;
+            left: -27px;
+            bottom: -43px;
+        }
+    }
+    .constituting-list{
+        width: 250px;
+        margin-left: 50px;
+    }
+    .how-its-made-section{
+        height: 1688px;
+    }
+    .quantity-list{
+        display: block;
+        margin-left: 20px;
+        &__item{
+            margin-bottom: 38px;
+        }
     }
 }
