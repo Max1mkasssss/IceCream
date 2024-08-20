@@ -1065,7 +1065,7 @@ body {
     margin-left: -197px;
   }
 }
-@media (min-width: 360px) and (max-width: 932px) {
+@media (max-width: 480px) {
   .how-its-made-title {
     width: 200px;
     margin-left: 111px;
@@ -1120,7 +1120,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 926px;
-  height: 330px;
+  height: 350px;
   margin: auto;
   overflow: hidden;
 }
