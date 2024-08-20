@@ -1558,8 +1558,10 @@ body {
 }
 
 .open-modal-button {
-  margin: 20px;
+  margin: -30px;
   padding: 10px 20px;
+  width: 150px;
+  height: 50px;
   background-color: #FEA5BB;
   color: white;
   border: none;
@@ -1743,6 +1745,11 @@ body {
 .close-button:hover {
   background-color: #e53935;
   transform: scale(1.05);
+}
+
+.footer {
+  width: 90%;
+  margin: 0 auto;
 }
 
 li {
