@@ -1102,6 +1102,12 @@ body {
     margin-bottom: 38px;
   }
 }
+.gallery-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 123px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -1114,7 +1120,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 926px;
-  height: 350px;
+  height: 330px;
   margin: auto;
   overflow: hidden;
 }
@@ -1147,6 +1153,8 @@ body {
 }
 
 .text-list {
+  display: flex;
+  justify-content: center;
   background-image: url(/photo/“.svg);
   background-repeat: no-repeat;
   background-position: 50px 32px;
@@ -1163,8 +1171,6 @@ body {
   z-index: 100;
   max-width: 750px;
   max-height: 52px;
-  top: 3721px;
-  left: 265px;
   gap: 0px;
   opacity: 0px;
   font-family: "DM Sans";
@@ -1173,23 +1179,23 @@ body {
   line-height: 29.76px;
   letter-spacing: 0.04em;
   text-align: center;
-  margin-left: 88px;
   padding-top: 47px;
 }
 
 .dots {
+  display: flex;
+  justify-content: center;
   position: absolute;
   margin-top: 24px;
   width: 100%;
   text-align: center;
-  margin-left: 18px;
+  gap: 18px;
 }
 
 .dot {
   display: inline-block;
   height: 15px;
   width: 15px;
-  margin: 0 18px 0px 0px;
   background-color: #D9D9D9;
   border-radius: 50%;
   cursor: pointer;
@@ -1211,13 +1217,13 @@ ul {
 }
 
 .elipse {
+  display: flex;
+  justify-content: center;
   margin-top: -18px;
-  max-width: 53px;
+  max-width: 100%;
   height: 4px;
   gap: 0px;
   opacity: 0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .elipse-list {
@@ -1245,9 +1251,25 @@ ul {
   line-height: 37.2px;
   margin-top: 20px;
   text-align: center;
-  margin-left: 13px;
 }
 
+@media (min-width: 320px) and (max-width: 1199px) {
+  .text-style {
+    z-index: 100;
+    max-width: 750px;
+    max-height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: "DM Sans";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 29.76px;
+    letter-spacing: 0.04em;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+}
 .container2 {
   width: 90%;
   margin: 0 auto;
@@ -1721,4 +1743,268 @@ body {
 .close-button:hover {
   background-color: #e53935;
   transform: scale(1.05);
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  width: 1280px;
+  height: 247px;
+  background-color: rgb(255, 245, 246);
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div {
+  margin-left: 120px;
+  margin-top: 58px;
+}
+
+.icons {
+  margin-top: -8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  background-color: #FEA5BB;
+  width: 34px;
+  height: 34px;
+  border-radius: 44px;
+}
+
+.icon1 {
+  margin-left: 220px;
+}
+
+.icon2 {
+  margin-left: 20px;
+}
+
+.icon3 {
+  margin-left: 20px;
+}
+
+.icon:hover {
+  background-color: #D41443;
+  width: 34px;
+  height: 34px;
+  border-radius: 44px;
+}
+
+.icon-photo {
+  margin-left: 7px;
+  margin-top: 6px;
+}
+
+.icon-photo1 {
+  margin-left: 5.5px;
+  margin-top: 9px;
+}
+
+.icon-photo2 {
+  margin-left: 13px;
+  margin-top: 5.5px;
+}
+
+.homemade_ice_cream_made {
+  position: relative;
+  color: rgb(255, 165, 186);
+  font-family: Titan One;
+  font-size: 30px;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  top: 0px;
+}
+
+.with_passion {
+  position: relative;
+  top: -45px;
+  color: rgb(212, 20, 67);
+  font-family: Titan One;
+  font-size: 58px;
+  letter-spacing: 6%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text {
+  color: black;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.number {
+  color: rgb(212, 20, 67);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.footer-name {
+  margin-top: -30px;
+}
+
+.footer-p {
+  margin-top: 17px;
+  margin-left: 502px;
+  color: rgb(144, 126, 130);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.footer-div-bottom {
+  margin-top: -15px;
+  width: 1280px;
+  height: 45px;
+  border: 1px solid rgb(225, 225, 225);
+}
+
+li {
+  list-style: none;
+}
+
+.footer {
+  width: 1280px;
+  height: 247px;
+  background-color: rgb(255, 245, 246);
+}
+
+.footer-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.div {
+  margin-left: 120px;
+  margin-top: 58px;
+}
+
+.icons {
+  margin-top: -8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.icon {
+  background-color: #FEA5BB;
+  width: 34px;
+  height: 34px;
+  border-radius: 44px;
+}
+
+.icon1 {
+  margin-left: 220px;
+}
+
+.icon2 {
+  margin-left: 20px;
+}
+
+.icon3 {
+  margin-left: 20px;
+}
+
+.icon:hover {
+  background-color: #D41443;
+  width: 34px;
+  height: 34px;
+  border-radius: 44px;
+}
+
+.icon-photo {
+  margin-left: 7px;
+  margin-top: 6px;
+}
+
+.icon-photo1 {
+  margin-left: 5.5px;
+  margin-top: 9px;
+}
+
+.icon-photo2 {
+  margin-left: 13px;
+  margin-top: 5.5px;
+}
+
+.homemade_ice_cream_made {
+  position: relative;
+  color: rgb(255, 165, 186);
+  font-family: Titan One;
+  font-size: 30px;
+  letter-spacing: 4%;
+  text-align: left;
+  text-transform: uppercase;
+  top: 0px;
+}
+
+.with_passion {
+  position: relative;
+  top: -45px;
+  color: rgb(212, 20, 67);
+  font-family: Titan One;
+  font-size: 58px;
+  letter-spacing: 6%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.text {
+  color: black;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.number {
+  color: rgb(212, 20, 67);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.footer-name {
+  margin-top: -30px;
+}
+
+.footer-p {
+  margin-top: 17px;
+  margin-left: 502px;
+  color: rgb(144, 126, 130);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 186%;
+  letter-spacing: 2%;
+  text-align: left;
+}
+
+.footer-div-bottom {
+  margin-top: -15px;
+  width: 1280px;
+  height: 45px;
+  border: 1px solid rgb(225, 225, 225);
 }/*# sourceMappingURL=main.css.map */
