@@ -1120,7 +1120,11 @@ body {
   position: relative;
   width: 100%;
   max-width: 926px;
+<<<<<<< HEAD
   height: 330px;
+=======
+  height: 300px;
+>>>>>>> 50f65e78ff8662aca0b25c5050cf02ca206407b1
   margin: auto;
   overflow: hidden;
 }
