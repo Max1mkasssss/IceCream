@@ -1065,14 +1065,6 @@ body {
     margin-left: -197px;
   }
 }
-<<<<<<< HEAD
-.gallery-section {
-  width: 90%;
-  margin: 0 auto;
-  margin-bottom: 123px;
-}
-
-=======
 @media (min-width: 360px) and (max-width: 932px) {
   .how-its-made-title {
     width: 200px;
@@ -1110,7 +1102,12 @@ body {
     margin-bottom: 38px;
   }
 }
->>>>>>> 93706704c1b4a4fafa583bb97cdc6e348a46ba66
+.gallery-section {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 123px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -1123,7 +1120,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 926px;
-  height: 500px;
+  height: 330px;
   margin: auto;
   overflow: hidden;
 }
