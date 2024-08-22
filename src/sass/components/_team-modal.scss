@@ -6,21 +6,36 @@ body {
 }
 
 .open-modal-button {
-  margin: 20px;
+  color: #FEA5BB;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 2px solid #FEA5BB;
   padding: 10px 20px;
-  background-color: #FEA5BB;
+  font-size: 17px;
+  font-weight: bold;
+  background: transparent;
+  position: relative;
+  transition: all 1s;
+  overflow: hidden;
+}
+.open-modal-button:hover {
   color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 16px;
-  border-radius: 5px;
-  transition: background-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.open-modal-button::before {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: -40px;
+  transform: skewX(45deg);
+  background-color: #FEA5BB;
+  z-index: -1;
+  transition: all 1s;
 }
 
-.open-modal-button:hover {
-  background-color: #d6718a;
-  transform: scale(1.05);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+.open-modal-button:hover::before {
+  width: 160%;
 }
 
 .modal-backdrop {
