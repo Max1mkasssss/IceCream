@@ -1750,7 +1750,8 @@ li {
 }
 
 .footer {
-  width: 1280px;
+  margin: 0 auto;
+  width: 90%;
   height: 247px;
   background-color: rgb(255, 245, 246);
 }
