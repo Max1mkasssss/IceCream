@@ -41,3 +41,5 @@
 - [@supriseeeeef](https://github.com/supriseeeeef)
 - [@PvNastia](https://github.com/PvNastia)
 - [@danikkkkk12](https://github.com/danikkkkk12)
+- [@StarostaX60fps](https://github.com/starostax60fps)
+
