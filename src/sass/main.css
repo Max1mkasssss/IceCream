@@ -2037,3 +2037,18 @@ li {
   height: 45px;
   border: 1px solid rgb(225, 225, 225);
 }/*# sourceMappingURL=main.css.map */
+
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.technologies img {
+  margin: 5px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
